@@ -1,0 +1,27 @@
+apiVersion: "spec.keptn.sh/0.2.3"
+kind: "Shipyard"
+metadata:
+  name: "ortelius"
+spec:
+  stages:
+    - name: "test"
+      sequences:
+      - name: "kickoff"
+        tasks:
+        - name: "evaluation"
+        - name: "catalog"
+        - name: "promote"
+        - name: "inform"
+    - name: "production"
+      sequences:
+      - name: "qualitycheck"
+        triggeredOn:
+          - event: "test.kickoff.finished"
+            selector:
+              match:
+              result: "pass"
+        tasks:
+        - name: "test"
+        - name: "evaluation"
+        - name: "catalog"
+        - name: "inform"
