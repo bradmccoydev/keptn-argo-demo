@@ -9,4 +9,5 @@ spec:
     secret: github
     provider: github
   paths:
-    - target: test
+    - source: test
+    - target: main
