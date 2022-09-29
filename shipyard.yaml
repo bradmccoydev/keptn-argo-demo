@@ -8,6 +8,7 @@ spec:
       sequences:
       - name: "kickoff"
         tasks:
+        - name: "test"
         - name: "evaluation"
         - name: "catalog"
         - name: "promote"
