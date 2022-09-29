@@ -9,5 +9,5 @@ spec:
     secret: github
     provider: github
   paths:
-    - target: main
-      source: test
+    - target: /test1
+      source: /kube-infra
