@@ -11,7 +11,7 @@ spec:
         - name: "test"
         - name: "evaluation"
         - name: "catalog"
-        - name: "promote"
+        - name: "git-promotion"
         - name: "inform"
     - name: "production"
       sequences:
