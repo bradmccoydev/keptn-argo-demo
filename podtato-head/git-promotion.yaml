@@ -10,4 +10,4 @@ spec:
     provider: github
   paths:
     - target: /test1
-      source: /kube-infra
+      source: ${nextstage}
