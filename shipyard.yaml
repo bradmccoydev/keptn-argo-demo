@@ -10,6 +10,7 @@ spec:
         tasks:
         - name: "test"
         - name: "evaluation"
+        - name: "catalog"
         - name: "git-promotion"
     - name: "production"
       sequences:
