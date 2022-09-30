@@ -11,7 +11,6 @@ spec:
         - name: "test"
         - name: "evaluation"
         - name: "git-promotion"
-        - name: "inform"
     - name: "production"
       sequences:
       - name: "qualitycheck"
