@@ -9,5 +9,5 @@ spec:
     secret: github
     provider: github
   paths:
-    - target: /test1
-      source: ${nextstage}
+    - target: /kube-infra/kustomize/podtato-head/podtato-head/envs/dev/version.yaml
+      source: /kube-infra/kustomize/podtato-head/podtato-head/envs/prod/version.yaml
