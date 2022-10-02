@@ -22,5 +22,3 @@ spec:
         tasks:
         - name: "test"
         - name: "evaluation"
-        - name: "catalog"
-        - name: "inform"
